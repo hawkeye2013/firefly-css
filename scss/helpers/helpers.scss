@@ -1,38 +1,70 @@
 @import '../theme.scss';
 
 @mixin backgroundColors() {
+  &:hover {
+    background-color: $color-light-hover;
+  }
+
   &.success {
     background-color: $color-success;
     color: #ffffff;
+
+    &:hover {
+      background-color: $color-success-hover;
+    }
   }
 
   &.warning {
     background-color: $color-warning;
     color: #222222;
+
+    &:hover {
+      background-color: $color-warning-hover;
+    }
   }
 
   &.danger {
     background-color: $color-danger;
     color: #ffffff;
+
+    &:hover {
+      background-color: $color-danger-hover;
+    }
   }
 
   &.info {
     background-color: $color-info;
     color: #ffffff;
+
+    &:hover {
+      background-color: $color-info-hover;
+    }
   }
 
   &.light {
     background-color: $color-light;
     color: #222222;
+
+    &:hover {
+      background-color: $color-light-hover;
+    }
   }
 
   &.mid {
     background-color: $color-mid;
     color: #ffffff;
+
+    &:hover {
+      background-color: $color-mid-hover;
+    }
   }
 
   &.dark {
     background-color: $color-dark;
     color: #ffffff;
+
+    &:hover {
+      background-color: $color-dark-hover;
+    }
   }
 }
