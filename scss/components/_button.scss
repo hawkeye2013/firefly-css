@@ -1,20 +1,37 @@
 @import '../theme.scss';
+@import '../helpers/helpers';
 
 %button {
   border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 button {
   @extend %button;
   padding: $btn-padding;
+  font-size: $btn-font-size;
+  border-radius: $btn-border-radius;
+
+  @include backgroundColors();
 }
 
 button.sm {
   @extend %button;
   padding: $btn-sm-padding;
+  font-size: $btn-sm-font-size;
+  border-radius: $btn-sm-border-radius;
+
+  @include backgroundColors();
 }
 
 button.lg {
   @extend %button;
   padding: $btn-lg-padding;
+  font-size: $btn-lg-font-size;
+  border-radius: $btn-lg-border-radius;
+
+  @include backgroundColors();
 }

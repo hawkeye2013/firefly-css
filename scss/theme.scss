@@ -18,12 +18,15 @@ $color-dark: #343a40;
 
 // Btn Small
 $btn-sm-padding: 5px;
-$btn-sm-font-size: 1rem;
+$btn-sm-font-size: 0.8rem;
+$btn-sm-border-radius: 4px;
 
 // Btn
 $btn-padding: 10px;
-$btn-font-size: 1.2rem;
+$btn-font-size: 1rem;
+$btn-border-radius: 6px;
 
 // Btn Large
-$btn-lg-padding: 15px;
-$btn-lg-font-size: 1.5rem;
+$btn-lg-padding: 10px 15px;
+$btn-lg-font-size: 1.2rem;
+$btn-lg-border-radius: 10px;
